@@ -1,0 +1,10 @@
+
+Parameters:
+  MyBucketBucketName:
+    Type: String
+    Default: my-unique-bucket-name-12345
+    Description: ""Resources:
+  MyBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref MyBucketBucketName
