@@ -21,6 +21,15 @@
 go.work
 go.work.sum
 
+# Terraform
 .terraform/
 *.tfstate
 *.tfstate.backup
+.terraform.lock.hcl
+
+# Terraform providers
+terraform.tfstate.d/
+
+# binaries
+*.exe
+
